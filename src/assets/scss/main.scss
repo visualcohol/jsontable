@@ -1,0 +1,31 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  overflow-y: scroll;
+}
+.json-output,
+.json-input {
+  width: 100%;
+}
+.json-input {
+  overflow-y: scroll;
+  outline: none;
+}
+.p-15 {
+  padding: 15px;
+}
+.error {
+  font-size: 0.8rem;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 0 5px;
+  border: 1px solid #dedede;
+}

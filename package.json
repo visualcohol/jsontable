@@ -1,0 +1,31 @@
+{
+  "name": "jsontable",
+  "version": "1.0.0",
+  "description": "Convert JSON to table and back.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visualcohol/jsontable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visualcohol/jsontable/issues"
+  },
+  "homepage": "https://github.com/visualcohol/jsontable#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "sass": "^1.26.9"
+  }
+}
